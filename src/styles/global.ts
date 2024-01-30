@@ -24,20 +24,6 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 
-  button {
-    background: ${(props) => props.theme['green-500']};
-    color: white;
-    padding: 20px 40px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-  }
-
-  button:hover {
-    background-color: ${(props) => props.theme['green-300']};
-  }
-
   .container {
     display: flex;
     justify-content: center;
