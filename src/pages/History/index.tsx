@@ -39,14 +39,6 @@ export function History() {
                 <Status statusColor="red">Interrompido</Status>
               </td>
             </tr>
-            <tr>
-              <td>Tarefa 4</td>
-              <td>30m</td>
-              <td>Há 2 cerca de meses</td>
-              <td>
-                <Status statusColor="green">Concluído</Status>
-              </td>
-            </tr>
           </tbody>
         </table>
       </HistoryList>
